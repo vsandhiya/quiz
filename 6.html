@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <style>
+        body {
+    background-image: url("images/world1.jpg");
+    height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ 
+.grid {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    background-color:#d6d6c2;
+    padding: 10px 50px 50px 50px;
+    border: 2px solid #cbcbcb;
+    
+}
+ 
+.grid h1 {
+    font-family: "serif";
+    background-color:#d6d6c2;
+    font-size: 60px;
+    text-align: center;
+    color:#081003;
+    padding: 2px 0px;
+    
+}
+ 
+#score {
+    color: #081003;
+    text-align: center;
+    font-size: 30px;
+}
+ 
+.grid #question {
+    font-family: "monospace";
+    font-size: 30px;
+    color: #081003;
+}
+ 
+.buttons {
+    margin-top: 30px;
+}
+ 
+#btn0, #btn1, #btn2, #btn3 {
+    background-color:#2FA408;
+    width: 250px;
+    font-size: 20px;
+    color: #081003;
+    border: 1px solid #2FA408;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+ 
+#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
+    cursor: pointer;
+    background-color:#b30000;
+}
+ 
+#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
+    outline: 0;
+}
+ 
+#progress {
+    color: #081003;
+    font-size: 18px;
+}
+.ri{
+   padding-left: 650px;
+}
+#web
+{
+    background-color:#d2f5a4;
+    font-size:20px;
+}
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div id="quiz">
+            <h1>Programming</h1>
+            <hr style="margin-bottom: 20px">
+ 
+            <p id="question"></p>
+ 
+            <div class="buttons">
+                <button id="btn0"><span id="choice0"></span></button>
+                <button id="btn1"><span id="choice1"></span></button>
+                <button id="btn2"><span id="choice2"></span></button>
+                <button id="btn3"><span id="choice3"></span></button>
+            </div>
+ 
+            <hr style="margin-top: 50px">
+            <footer>
+                <p id="progress">Question x of y</p>
+            </footer>
+        </div>
+    </div>
+    <div class="ri">
+    <button id="web" onclick="window.location.href='https://uou8yn5gppfdrm71suo9tg-on.drv.tw/www.mini%20project.com/Quiz.html';">
+      BACK    
+  </button>
+</div>
+ 
+<script src="js/6.js"></script>
+ 
+</body>
+</html>

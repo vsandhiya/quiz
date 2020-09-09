@@ -1,0 +1,18 @@
+* 
+body
+{
+	background-image: url('img/xyz.jpg');
+ /* background-color: #00293f;*/
+
+  /* Full height */
+    height: 100%;
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Add padding to containers */
+.sam
+{
+  padding-left:20px;
+  padding-top:100px;
+}
